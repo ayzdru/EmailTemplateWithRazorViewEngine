@@ -12,7 +12,6 @@ namespace EmailTemplateWithRazorViewEngine.ViewModels
             FullName = fullName;
             Description = description;
         }
-
         public string FullName { get; set; }
         public string Description { get; set; }
     }

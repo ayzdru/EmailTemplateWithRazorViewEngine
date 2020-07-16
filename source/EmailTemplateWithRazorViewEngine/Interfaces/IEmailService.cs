@@ -9,6 +9,5 @@ namespace EmailTemplateWithRazorViewEngine.Interfaces
     {
         string GetPartialViewHtml(string partialViewName, object model);
         void SendEmail(string email, string subject, string body);
-
     }
 }
